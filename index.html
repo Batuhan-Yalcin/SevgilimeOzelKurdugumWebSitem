@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sevgilim</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="page-loader">
+        <div class="loader-heart">❤</div>
+    </div>
+    <div class="container">
+        <div class="header">
+            <h1>Sevgilim</h1>
+            <p class="love-message">
+                Seninle geçirdiğim her an için şükrediyorum. Sen benim hayatımın anlamısın.
+                Seninle geçirdiğimiz her anı, her gülüşü, her mutluluğu hatırlıyorum.
+                Bu yıldönümüzde sana olan sevgimi bir kez daha haykırmak istiyorum.
+                Seni çok seviyorum!
+            </p>
+        </div>
+
+        <div class="love-counter">
+            <h3>Seninle Geçen Zaman</h3>
+            <div class="counter">
+                <div class="time-unit">
+                    <span id="years">0</span>
+                    <label>Yıl</label>
+                </div>
+                <div class="time-unit">
+                    <span id="months">0</span>
+                    <label>Ay</label>
+                </div>
+                <div class="time-unit">
+                    <span id="days">0</span>
+                    <label>Gün</label>
+                </div>
+            </div>
+        </div>
+
+        <div class="music-player">
+            <h3>Bu şarkı Sana Olan Sevgimin Müziğe Dönüşmüş Hali..</h3>
+            <div class="custom-player">
+                <div class="player-controls">
+                    <button id="playBtn" class="play-btn">▶</button>
+                    <div class="progress-bar">
+                        <div class="progress"></div>
+                    </div>
+                    <span class="time">0:00</span>
+                </div>
+            </div>
+            <audio id="musicPlayer" src="muzik.mp4"></audio>
+        </div>
+
+        <div class="memories">
+            <h2>Anılarımız</h2>
+            <div class="memory-container">
+                <!-- Anı kartları JavaScript ile eklenecek -->
+            </div>
+        </div>
+
+        <div class="heart-collage">
+            <div class="heart-shape">
+                <!-- Her bir fotoğraf için bir div -->
+                <div class="collage-photo" style="background-image: url('foto1.jpg')"></div>
+                <div class="collage-photo" style="background-image: url('foto2.jpg')"></div>
+                <!-- Daha fazla fotoğraf eklenebilir -->
+            </div>
+        </div>
+
+        <div class="special-section">
+            <h2>Sana Özel Mektubum Tıkla Güzel Kızım</h2>
+            <div class="love-letter">
+                <div class="envelope">
+                    <div class="front">
+                        <div class="stamp">❤️</div>
+                        <div class="message">Aşk Mektubum</div>
+                    </div>
+                    <div class="letter">
+                        <h3>Canım Sevgilim,</h3>
+                        <p>
+                            Seninle geçirdiğim her an, hayatımın en Güzel Zamanları...
+                            Her gün sana daha çok aşık oluyorum. Sen benim Bakmaya doyamadığım ezberim,
+                            en tatlı rüyamsın, en değerli varlığımsın.
+                        </p>
+                        <p class="signature">Sonsuza kadar senin...</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="special-section">
+            <h2>Özel Günlerimiz</h2>
+            <div class="timeline">
+                <div class="date-item">
+                    <div class="date">25.01.2024</div>
+                    <div class="event">Sevgili Oluşumuz❤️</div>
+                </div>
+                <div class="date-item">
+                    <div class="date">26.01.2024</div>
+                    <div class="event">İlk Buluşma..❤️</div>
+                </div>
+                <div class="date-item">
+                    <div class="date">26.01.2024</div>
+                    <div class="event">İlk El Ele Tutuşmamız❤️</div>
+                </div>
+                <div class="date-item">
+                    <div class="date">29.01.2024</div>
+                    <div class="event">İlk Öpüşmemiz❤️</div>
+                </div>
+                <div class="date-item">
+                    <div class="date">08.08.2024</div>
+                    <div class="event">İlk Tatilimiz❤️</div>
+                </div>
+                <div class="date-item">
+                    <div class="date">25.01.2025</div>
+                    <div class="event">1. Yıl Dönümümüz❤️</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="love-quotes">
+            <div class="quote-box">
+                <p class="quote-text"></p>
+                <button class="generate-quote">
+                    <span class="button-text">❤ Buraya Tıkla Prensesim ❤</span>
+                    <span class="button-effect"></span>
+                </button>
+            </div>
+        </div>
+    </div>
+    <script src="askim.js"></script>
+</body>
+</html>
